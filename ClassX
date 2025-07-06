@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class X Coaching Masterclass</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif; }
+    body { background: #f8f9fa; color: #333; line-height: 1.6; }
+    header { background: #0044cc; color: #fff; padding: 30px 20px 20px 20px; text-align: center; }
+    nav { display: flex; justify-content: center; gap: 24px; background: #0033a0; padding: 12px 0; }
+    nav a { color: #fff; text-decoration: none; font-weight: bold; font-size: 1rem; transition: color 0.2s; }
+    nav a:hover { color: #ffe066; }
+    .hero {
+      display: flex; flex-direction: column; align-items: center;
+      background: #fff; padding: 48px 20px 36px 20px; text-align: center;
+      box-shadow: 0 6px 16px rgba(0,68,204,0.08);
+    }
+    .hero h1 { color: #002f6c; font-size: 2.6rem; margin-bottom: 20px; }
+    .hero p { font-size: 1.2rem; margin-bottom: 14px; }
+    .hero ul { list-style: none; margin-bottom: 22px; }
+    .hero ul li { margin: 9px 0; font-size: 1.04rem; }
+    .cta-btn {
+      background: #28a745; color: #fff; padding: 14px 28px;
+      text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 1.1rem;
+      box-shadow: 0 2px 8px rgba(40,167,69,0.12);
+      transition: background 0.2s;
+    }
+    .cta-btn:hover { background: #218838; }
+    .section { padding: 40px 20px; background: #fff; margin-top: 18px; }
+    .section h2 { color: #0044cc; margin-bottom: 18px; }
+    .about, .instructor, .faq { max-width: 960px; margin: 0 auto; }
+    .instructor img { width: 120px; border-radius: 50%; margin-bottom: 14px; }
+    footer {
+      background: #003366; color: #fff; text-align: center; padding: 24px 12px 18px 12px;
+      margin-top: 30px;
+    }
+    @media (max-width: 600px) {
+      .hero h1 { font-size: 1.7rem; }
+      nav { flex-direction: column; gap: 10px; }
+      .cta-btn { width: 100%; }
+      .section { padding: 28px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Class X Coaching Masterclass</h1>
+    <p>Live 2-Hour Session on 24 July 2025, 5:00PM - 7:00PM</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#instructor">Instructor</a>
+    <a href="#faq">FAQ</a>
+    <a href="#enroll">Enroll</a>
+  </nav>
+  <section class="hero">
+    <h1>Master Class X Concepts in Just 2 Hours!</h1>
+    <p>Join our expert-led crash coaching session to boost your performance.</p>
+    <ul>
+      <li>✔ Clarify tough Math & Science topics</li>
+      <li>✔ Get practice sheets & live Q&A</li>
+      <li>✔ Perfect for mid-term prep</li>
+    </ul>
+    <a class="cta-btn" href="#enroll">Reserve Your Seat</a>
+  </section>
+  <section class="section about" id="about">
+    <h2>About the Class</h2>
+    <p><strong>Objective:</strong> Strengthen your understanding of key concepts in Math and Science.</p>
+    <p><strong>Topics Covered:</strong></p>
+    <ul>
+      <li>Important formulas & theories</li>
+      <li>Problem-solving techniques</li>
+      <li>Common exam pitfalls</li>
+    </ul>
+    <p><strong>Who Should Attend:</strong> Class X students aiming to boost their exam performance.</p>
+  </section>
+  <section class="section instructor" id="instructor">
+    <h2>Meet the Instructor</h2>
+    <img src="https://via.placeholder.com/120" alt="Instructor Photo">
+    <p><strong>Jonet T.</strong> – Experienced teacher with 10+ years preparing students for board exams.</p>
+    <p><strong>What You’ll Get:</strong></p>
+    <ul>
+      <li>2 hrs live coaching</li>
+      <li>Doubt clearing session</li>
+      <li>Practice material</li>
+      <li>PDF notes</li>
+    </ul>
+  </section>
+  <section class="section faq" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <p><strong>When will the class be held?</strong><br>
+    On 24 July 2025, from 5:00PM to 7:00PM.</p>
+    <p><strong>Is a recording provided?</strong><br>
+    Yes, a recording will be available after the session.</p>
+  </section>
+  <footer id="enroll">
+    <p>📧 Email: contact@classxcoaching.com | 📞 Phone: +91-9876543210</p>
+    <p>&copy; 2025 Class X Coaching. All rights reserved.</p>
+  </footer>
+</body>
+</html>
